@@ -1,5 +1,15 @@
+html {
+    font-size: 16px;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 /*navBar*/
+
 
 
 .navbar-brand img {
@@ -32,315 +42,741 @@
 /*navBar End*/
 
 
-
-
-h3 {
-color: red;
-font-weight: 200;
-}
-
-.d-inline-block {
-margin-left: 4rem;
-}
-
-.textCenter {
-    text-align: center;
-}
-
-.italic {
-    font-style: italic;
-    padding-bottom: 6rem;
-    font-size: 1.5rem;
-    color: white; 
+.trans {
+    position: absolute;
+    width: 500px;
+    
+    right: 200px;
+    opacity: 0.5;
     
 
-}
-
-
-.listContainer {
-    display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-
-
-
-
-.personaSectionalText {
-    font-style: italic;
-    font-size: 1.5rem;
-    color: #586691;
-
-}
-
-.list{
-    display:inline-block;
-    margin: 1.5rem;
-}
-
-
-.title {
-    padding-top:5rem;
     
-    width: 100%;
-    background: url("../images/light\ organge.png");
-    background-color: transparent !important;
+}
+
+
+
+/* the top grid  */
+
+#topGrid {
+  margin: 0px 0px;
+  display: grid;
+  
+  grid-template-rows: 0.9fr 1fr;
+  grid-template-columns: 65% 35%;
+  grid-template-areas:
+  "mountainPic myInfo"
+  "aboutMe myPortrait";
+}
+
+#mountainPic {
+
+    grid-area: mountainPic;
+    background-image: url("../images/mountain\ top.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    z-index: 10;
-    
+
 }
 
-h1 {
-    width: 90%;
-    text-align: center;
+#myInfo {
+    grid-area: myInfo;
+    background-color: #E88156;
+    padding: 10%;
+    position: relative;
+}
     
-    font-size:3rem;
-    margin:auto;
-    
-    padding: 2rem 5rem;
+.dot1 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 15px;
+
+}
+
+.dot2 {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 15px;
+
+}
+
+.dot3 {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    height: 15px;
+
+}
+
+.dot4 {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    height: 15px;
+
+}
    
-}
-
-
-.heroTextColor {
-    color: #3F465C;
-}
-
-h2 {
-     text-align: center;
-     padding:2rem;
-     font-family: font-family 'Oswald', sans-serif;
-     font-weight: 600;
-     font-size:3rem;
-     
-}
 
 
 
-h3 {width: 60%;
-    text-align: center;
-    color: darkolivegreen;
-    font-weight: 250;
-    font-size: 1.5rem;
+#logo {
+    margin-top: 9%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: flex-end;
 
-    margin:auto;
     
-    padding: 0rem 5rem;
-
-
+  
 }
 
 
-.text-align {
-    text-align: left
+
+.imageLogo {
+    height: 170px;
+}
+
+
+
+#name {
+    font-size: 3rem;
+    text-align: left;
+    letter-spacing: -2.2px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+#jobTitle {
+    font-size: 1.5rem;
+    text-align: left;
+    letter-spacing: -1px;
+    color:white;
+    opacity: 1;
+    line-height: 1.3;
+    margin-left: 10%;
+}
+
+
+
+#aboutMe {
+    grid-area: aboutMe;
+    background-color: #66739F;
+    padding: 10%;
+    /* min-width: 1000px; */
+    
+
+}
+
+#aboutMeText {
+    font-size: 2.3rem;
+    text-align: left;
+    
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 5%;
+
+}
+
+#aboutMeContent {
+    font-size: 1.5rem;
+    text-align: left;
+   
+    color: white;
+    opacity: 1;
+    line-height: 1.3;
+  
+    justify-content: center;
+
+
 }
 
 p {
-    width: 80%;
+    margin-bottom: 1rem;
+}
+
+
+
+
+#myPortrait {
+    grid-area: myPortrait;
+    background-image: url("../images/IMG_6632.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+.gridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 
-    margin:auto;
     
-    padding:1rem  5rem;
+}
 
+
+
+
+
+
+
+
+
+
+
+/* 3 Things I Love to Do */
+
+
+#thingsIlove {
+    background-color: #E88156;
+    padding: 7%;
+    
+}
+
+#thingsIloveText {
+    font-size: 2.3rem;
     text-align: left;
-
+    letter-spacing: -2.2px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 5%;
 }
 
-
-
-
-
-
-
-section.main{
-        
-    margin-bottom: 8rem;
-}
-
-.card p{
-        margin:auto;
-}
-    
-h5{
-        margin: auto !important;
-}
-
-.allimage{
-        display:inline-block;
-        text-align: center;
-}
-
-
-
-section img{
-        margin:auto;
-        text-align: center;
-        padding:2rem;
-}
-
-.card-img{
-        margin-top:1.5rem;
-}
-
-    
-/* footer----------------------*/
-.socialMedias{
-    height:10.5rem;
-    
+.cardsContainer {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70vh;
+}
+
+.card {
+    text-align: center;
+    width: 30%;
+    background-color: #66739F;
+    padding: 3%;
+    height: 90%;
+    
+}
+
+.card h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    
+    color: #E88156;
+    opacity: 1;
+    line-height: 1.3;
+    margin-bottom: 5%;
+}
+
+.card p {
+    font-size: 1.3rem;
+    color:white;
+    opacity: 1;
+    line-height: 1.3;
+    margin-bottom: 5%;
+    
+}
+
+
+
+
+/* my work */
+
+#myProject {
+    padding: 7%;
+    
+    
+}
+
+#myProjectText {
+    font-size: 2.3rem;
+    text-align: left;
+    letter-spacing: -2.2px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 5%;
+}
+
+.projectContainer {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    border-bottom: 5px solid #E88156;
+
+   
+
+}
+
+#projectInfo {
+
+    text-align: center;
+    width: 25%;
+    padding: 3%;
+    opacity: 1;
+    line-height: 1.3;
+
+}
+
+#projectInfo h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: -2.2px;
+    margin-bottom: 9%;
+
+}
+
+#projectInfo p {
+    font-size: 1.5rem;
+    letter-spacing: -2.2px;
+    margin-bottom: 9%;
+   
+}
+
+#projectInfo img {
+    width: 150px;;
+
+}
+
+
+#projectImgs {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+#projectImgs img {
+   width: 30%;
+    
+}
+
+
+
+
+
+
+.adjust {
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+
+}
+
+#adjusttheborder {
+    border-bottom: 0px;
+
+}
+
+
+
+
+
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+
+.button2 {
+    background-color: #66739F; 
+    color: white; 
+    
+  }
+  
+.button2:hover {
+    background-color: #E88156;
+    color: white;
+    padding: 12px 35px;
+}
+
+
+
+/* follow me  */
+
+#socialMedia {
+    height: 150px;
+    background-color: #E88156;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#socialMedia img {
+    margin: 0 25px;
+    width: 92px;
+    height: 92px
+}
+
+
+
+
+@media only screen and (max-width: 1015px) {
+  
+
+    #thingsIloveText {
+        font-size: 2.3rem;
+        text-align: center;
+        letter-spacing: -2.2px;
+        color: #000000;
+        opacity: 1;
+        margin-bottom: 5%;
+    }
+
+
+
     
 
 
+    .cardsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        width: 80%;
+    }
+
+
+    .card {
+        width: 90%;
+        padding: 3%;
+        margin-bottom: 20px;
+    }
+    
+
 }
+
+
+
+
+/* For mobile phones: */
+
+
+@media only screen and (max-width: 700px) {
+    
+
+    /* the top grid  */
+
+    .disappear {
+        display: none;
+    }
+
+    #topGrid {
+        margin: 0px 0px;
+        display: grid;
+        height: 200vh;
+        width: 100vw;
+        grid-template-rows: 20% 15% 35% 30%;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "mountainPic"
+        "myInfo"
+        "myPortrait"
+        "aboutMe";
+    }
   
-.socialMedias a{
-    background-color: white;
-    color: #E78A64;
-    margin: 4rem 4rem ;
+    #mountainPic {
+  
+      grid-area: mountainPic;
+      background-image: url("../images/mountain\ top.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-width: 100vw;
+  
+    }
+  
+    #myInfo {
+      grid-area: myInfo;
+      background-color: #E88156;
+      padding: 0%;
+      position: relative;
+      min-width: 100vw;
+    }
+      
+    .dot {
+      display: none;
+    }
+     
+  
+  
+  
+    #logo {
+    
+      position: absolute;
+      top: -60px;
+      right: -15px;
+      margin-top: 0;
+
+    }
+  
+    .imageLogo {
+      height: 120px;
+    }
+  
+  
+    #name {
+      font-size: 35px;
+      text-align: left;
+      letter-spacing: -2.2px;
+      color: #000000;
+      opacity: 1;
+      margin: 5%;
+      
+    }
+  
+    #jobTitle {
+      font-size: 17px;
+      text-align: left;
+      
+      color:white;
+      opacity: 1;
+      line-height: 1.3;
+      margin: 5%;
+    }
+  
+  
+  
+    #aboutMe {
+      grid-area: aboutMe;
+      background-color: #66739F;
+      padding: 0%;
+      min-width: auto;
+      height: auto;
+      
+      
+    }
+  
+    #aboutMeText {
+      font-size: 30px;
+      text-align: left;
+      letter-spacing: -1px;
+      color: #000000;
+      opacity: 1;
+      margin: 5%;
+  
+    }
+  
+    #aboutMeContent {
+      font-size: 17px;
+      text-align: left;
+      letter-spacing: -1px;
+      color: white;
+      opacity: 1;
+      line-height: 1.3;
+      max-width: 40rem;
+      min-width: 20rem;
+      justify-content: center;
+      margin: 5%;
+  
+  
+    }
+  
+    li {
+      margin-bottom: 17px;
+    }
+  
+  
+  
+  
+    #myPortrait {
+      background-image: url("../images/IMG_6632.JPG");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      grid-area: myPortrait;
+      
+  
+    }
+  
+  
+    .gridArea {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+  
+      
+    }
+
+
+
+    /* 3 Things I Love to Do */
+
+
+    #thingsIlove {
+      background-color: #E88156;
+      padding-top: 7%;
+      
     
     
-}
-  
-.footer {
-     background-color: #E78A64;
+    }
+
+    #thingsIloveText {
+     font-size: 30px;
+     text-align: left;
+     
+     color: #000000;
+     opacity: 1;
+     margin-bottom: 6%;
+     
+    }
+
+    .cardsContainer {
      display: flex;
+     flex-direction: column;
+     height: auto;
+     width: 90%;
+     
+
+     
+    }
+
+
+    
+
+
+
+
+
+    .card {
+     text-align: center;
+     width: 80%;
+     background-color: #66739F;
+     padding: 3%;
+     margin-bottom: 20px;
+    
+    }
+
+    .card h4 {
+     font-size: 17px;
+     font-weight: bold;
+     
+     color: #E88156;
+     opacity: 1;
+     line-height: 1.3;
+     margin: 5%;
+    }
+
+    .card p {
+     font-size: 15px;
+     color:white;
+     opacity: 1;
+     line-height: 1.3;
+     margin-bottom: 5%;
+    
+    
+    }
+
+
+    /* my work */
+
+    #myProject {
+     padding: 7%;
+    
+    
+    }
+
+    #myProjectText {
+     font-size: 30px;
+     text-align: left;
+     letter-spacing: -2.2px;
+     color: #000000;
+     opacity: 1;
+     margin-bottom: 5%;
+    }
+
+    .projectContainer {
+
+     display: flex;
+     flex-direction: column;
      align-items: center;
+     justify-content: none;
+     padding-bottom: 5%;
+     border-bottom: 5px solid #E88156;
+
+   
+
+    }
+
+    #projectInfo {
+
+     text-align: center;
+     width: 50%;
+     padding: 3%;
+     opacity: 1;
+     line-height: 1.3;
+
+    }
+
+    #projectInfo h2 {
+     
+     
+
+     font-size: 25px;
+     font-weight: bold;
+     letter-spacing: 1px;
+     color: #000000;
+     opacity: 1;
+     line-height: 1.3;
+     margin: 10%;
+
+    }
+
+    #projectInfo p {
+     
+     
+     
+
+     font-size: 17px;
+     color:black;
+     opacity: 1;
+     line-height: 1.3;
+     margin-bottom: 6%;
+     letter-spacing: 0.5px;
+   
+    }
+
+    #projectInfo img {
+     width: 180px;
+
+    }
+
+
+    #projectImgs {
+     display: flex;
      justify-content: center;
-}
-  
+     width: 95%;
+     height: auto;
 
-
-
-.card{
-       display:inline-block;
-       padding:3rem;
-       margin:0 1rem 0 1rem;
-       border:0
-}
-
-.card p{
-    margin:auto;
-    
-    padding:1.5rem  2rem;
-
-}
-
-
-
-.card-body{
-        
-        margin-left:3rem;
-}
-
-
-.card-body p{
-        padding:1rem 0 0 2rem;
-}
-
-p.card{
-       border: 0;
-}
-
-
-
-
-
-
-
-
- @media only screen and  (max-width : 870px){
-    h1 {
-        width: 80%;
-        text-align: center;
-        
-    
-        margin:auto;
-        
-        padding: 2rem 5rem;
-    
-        
     }
-    h3{width: 80%;
-        text-align: center;
-        color: darkolivegreen;
-        font-weight: 250;
-    
-        margin:auto;
-        
-        padding: 1rem 5rem;
-    
-    
-    }
-    
-    p{
-        width: 80%;
-        
-    
-        margin:auto;
-        
-        padding:2rem  5rem;
-        }
 
 
- }    
-    
- 
- 
- @media only screen and  (max-width : 570px){
-        .card-body{
-            margin:0;
-        }
-        .card-img{
-            max-width: 250px;
-            padding: 0rem;
-        }
-        
-        h1 {
-            width: 100%;
-            text-align: center;
-            font-size: 2rem;
-        
-            margin:auto;
-            
-            padding: 2rem 2rem;
-        
-            
-        }
-        h3{width: 100%;
-            text-align: center;
-            color: darkolivegreen;
-            font-weight: 250;
-        
-            margin:auto;
-            
-            padding: 1rem 2rem;
-        
-        
-        }
-        
-        p{
-            width: 100%;
-            
-        
-            margin:auto;
-            
-            padding:2rem  3rem 2rem 2rem;
-        
-            
-        }
-        section.main{
-        
-            margin-bottom: 4rem;
-        }
 
-        section img{
-            min-width: 100%;
-        }
-    }  
 
    
 
@@ -349,15 +785,62 @@ p.card{
 
 
 
+    #blogImgs {
+     
+     width: 300px;
+
+    } 
+
+    #adjusttheborder {
+     border-bottom: 0px;
+
+    }
+
+    .adjust {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+    
+    }
+
+
+    /* follow me  */
+
+    #socialMedia {
+
+     height: 90px;
+     margin: 0px;
+     background-color: #E88156;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+    }
+
+    
+
+
+    #socialMedia img {
+        margin: 0 10px;
+        width: 50px;
+        height: 50px
+    }
+    
+   
+
+
+    
+
+
+   
 
 
 
 
 
+        
 
 
 
-
-
-
+}
 
