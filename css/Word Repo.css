@@ -95,8 +95,10 @@ margin-left: 4rem;
     padding-top:5rem;
     
     width: 100%;
-    background: url("../images/light\ organge.png");
-    background-color: transparent !important;
+    background-image: linear-gradient(#E78A64,#FF79A4);
+    /* background-color: #FF7272;
+    background: url("../images/light\ organge.png");*/
+    
     background-size: cover;
     z-index: 10;
     
@@ -180,15 +182,15 @@ p {
 
 
 .button3 {
-    background-color: #E88156; 
+    background-color: #FA7383; 
     color: white; 
     margin-top: 2rem;
     
   }
   
 .button3:hover {
-    background-color:  #849CEF;
-    color: black;
+    background-color:  #2C50AD;
+    color: white;
     padding: 12px 35px;
 }
 
