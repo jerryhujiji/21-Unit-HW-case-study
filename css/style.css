@@ -88,11 +88,10 @@ body {
 
 #myInfo {
     grid-area: myInfo;
-    background-color: #E88156;
+    background-color:#E78A64;
     padding: 10%;
     position: relative;
 }
-    
 .dot1 {
     position: absolute;
     top: 30px;
@@ -797,10 +796,22 @@ p {
     #projectImgs {
      display: flex;
      justify-content: center;
-     width: 95%;
+     width: 100%;
      height: auto;
 
     }
+
+
+    #projectImgs2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+   
+       }
+
+
+    
 
 
 
@@ -814,7 +825,7 @@ p {
 
     #blogImgs {
      
-     width: 300px;
+     width: 10%;
 
     } 
 

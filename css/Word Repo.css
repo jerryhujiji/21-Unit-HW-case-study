@@ -1,0 +1,404 @@
+
+/*navBar*/
+
+
+.navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+}
+
+
+.customNav {
+    
+    width: 100%;
+    background: url("../images/Rectangle\ orange.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+}
+
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.navColorChange {
+    background-color: aliceblue;
+}
+
+
+
+/*navBar End*/
+
+
+
+
+
+h3 {
+color: red;
+font-weight: 200;
+}
+
+.d-inline-block {
+margin-left: 4rem;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+    padding-bottom: 6rem;
+    font-size: 1.5rem;
+    color: white; 
+    
+
+}
+
+
+.listContainer {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 70%;
+    
+
+    margin:auto;
+    
+    padding:1rem  5rem;
+
+    text-align: left;
+
+}
+
+
+
+
+
+.personaSectionalText {
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #586691;
+
+}
+
+.list{
+   
+  
+}
+
+
+.title {
+    padding-top:5rem;
+    
+    width: 100%;
+    background: url("../images/light\ organge.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+    
+}
+
+h1 {
+    width: 90%;
+    text-align: center;
+    
+    font-size:3rem;
+    margin:auto;
+    
+    padding: 2rem 5rem;
+   
+}
+
+
+.heroTextColor {
+    color: #3F465C;
+}
+
+h2 {
+     text-align: center;
+     padding:2rem;
+     font-family: font-family 'Oswald', sans-serif;
+     font-weight: 600;
+     font-size:3rem;
+     
+}
+
+
+
+h3 {width: 60%;
+    text-align: center;
+    color: darkolivegreen;
+    font-weight: 250;
+    font-size: 1.5rem;
+
+    margin:auto;
+    
+    padding: 0rem 5rem;
+
+
+}
+
+
+.text-align {
+    text-align: left
+}
+
+p {
+    width: 80%;
+    
+
+    margin:auto;
+    
+    padding:1rem  5rem;
+
+    text-align: left;
+
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+
+
+
+
+.button3 {
+    background-color: #E88156; 
+    color: white; 
+    margin-top: 2rem;
+    
+  }
+  
+.button3:hover {
+    background-color:  #849CEF;
+    color: black;
+    padding: 12px 35px;
+}
+
+
+
+
+
+section.main{
+        
+    margin-bottom: 8rem;
+}
+
+.card p{
+        margin:auto;
+}
+    
+h5{
+        margin: auto !important;
+}
+
+.allimage{
+        display:inline-block;
+        text-align: center;
+}
+
+
+
+section img{
+        margin:auto;
+        text-align: center;
+        padding:2rem;
+}
+
+.card-img{
+        margin-top:1.5rem;
+}
+
+    
+/* footer----------------------*/
+.socialMedias{
+    height:10.5rem;
+    
+    display: flex;
+    justify-content: space-around;
+    
+
+
+}
+  
+.socialMedias a{
+    background-color: white;
+    color: #E78A64;
+    margin: 4rem 4rem ;
+    
+    
+}
+  
+.footer {
+     background-color: #E78A64;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+  
+
+
+
+.card{
+       display:inline-block;
+       padding:3rem;
+       margin:0 1rem 0 1rem;
+       border:0
+}
+
+.card p{
+    margin:auto;
+    
+    padding:1.5rem  2rem;
+
+}
+
+
+
+.card-body{
+        
+        margin-left:3rem;
+}
+
+
+.card-body p{
+        padding:1rem 0 0 2rem;
+}
+
+p.card{
+       border: 0;
+}
+
+
+
+
+
+
+
+
+ @media only screen and  (max-width : 870px){
+    h1 {
+        width: 80%;
+        text-align: center;
+        
+    
+        margin:auto;
+        
+        padding: 2rem 5rem;
+    
+        
+    }
+    h3{width: 80%;
+        text-align: center;
+        color: darkolivegreen;
+        font-weight: 250;
+    
+        margin:auto;
+        
+        padding: 1rem 5rem;
+    
+    
+    }
+    
+    p{
+        width: 80%;
+        
+    
+        margin:auto;
+        
+        padding:2rem  5rem;
+        }
+
+
+ }    
+    
+ 
+ 
+ @media only screen and  (max-width : 570px){
+        .card-body{
+            margin:0;
+        }
+        .card-img{
+            max-width: 250px;
+            padding: 0rem;
+        }
+        
+        h1 {
+            width: 100%;
+            text-align: center;
+            font-size: 2rem;
+        
+            margin:auto;
+            
+            padding: 2rem 2rem;
+        
+            
+        }
+        h3{width: 100%;
+            text-align: center;
+            color: darkolivegreen;
+            font-weight: 250;
+        
+            margin:auto;
+            
+            padding: 1rem 2rem;
+        
+        
+        }
+        
+        p{
+            width: 100%;
+            
+        
+            margin:auto;
+            
+            padding:2rem  3rem 2rem 2rem;
+        
+            
+        }
+        section.main{
+        
+            margin-bottom: 4rem;
+        }
+
+        section img{
+            min-width: 100%;
+        }
+    }  
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
