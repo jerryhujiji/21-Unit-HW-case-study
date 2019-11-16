@@ -162,7 +162,7 @@ section.main{
 }
 
 .card p{
-        margin:auto;
+        margin: auto;
 }
     
 h5{
@@ -230,11 +230,16 @@ section img{
 
 }
 
+.centerTheText {
 
+   display: flex;
+   align-items: center;
+}
 
 .card-body{
         
         margin-left:3rem;
+        
 }
 
 
