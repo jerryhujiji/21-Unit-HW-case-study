@@ -234,7 +234,7 @@ p {
 
 /* card flip starts */
 
-.flip-card {
+  .flip-card {
     background-color: transparent;
     width: 30vw;
     height: 30vw;
