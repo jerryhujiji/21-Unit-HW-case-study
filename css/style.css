@@ -209,7 +209,7 @@ p {
 
 #myPortrait {
     grid-area: myPortrait;
-    background-image: url("../images/IMG_6632.JPG");
+    background-image: url("../images/CO.PNG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -318,7 +318,7 @@ p {
     align-items: center;
     justify-content: space-between;
     padding-bottom: 5%;
-    border-bottom: 5px solid #E88156;
+    border-bottom: 4px solid #E88156;
 
    
 
