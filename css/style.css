@@ -232,8 +232,49 @@ p {
 
 
 
+/* card flip starts */
+
+.flip-card {
+    background-color: transparent;
+    width: 30vw;
+    height: 30vw;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
 
 
+/* card flip ends */
 
 
 
@@ -322,9 +363,8 @@ p {
 
 
 .adjust {
-    display: flex;
-    justify-content: flex-start;
-    width: 750px;
+    
+    width: 50rem;
 
 }
 
@@ -633,7 +673,7 @@ p {
      display: flex;
      flex-direction: column;
      align-items: center;
-     justify-content: none;
+     justify-content: center;
      padding-bottom: 5%;
      border-bottom: 4px solid #FCC5AE;
 
@@ -680,28 +720,54 @@ p {
    
     }
 
-    .projectInfo img {
-     width: 180px;
-
-    }
 
 
-    #projectImgs {
-     display: flex;
-     justify-content: center;
-     width: 100%;
-     height: auto;
+    /* card flip starts */
 
-    }
+.flip-card {
+    background-color: transparent;
+    width: 80vw;
+    height: 80vw;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
 
 
-    #projectImgs2 {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: auto;
-   
-    }
+/* card flip ends */
+
+    
+
 
 
     
