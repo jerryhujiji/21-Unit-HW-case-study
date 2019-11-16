@@ -237,67 +237,13 @@ p {
 
 
 
-/* 3 Things I Love to Do */
-
-
-#thingsIlove {
-    background-color: #E88156;
-    padding: 7%;
-    
-}
-
-#thingsIloveText {
-    font-size: 2.3rem;
-    text-align: left;
-    letter-spacing: -2.2px;
-    color: #000000;
-    opacity: 1;
-    margin-bottom: 5%;
-}
-
-.cardsContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 70vh;
-}
-
-.card {
-    text-align: center;
-    width: 30%;
-    background-color: #66739F;
-    padding: 3%;
-    height: 90%;
-    
-}
-
-.card h4 {
-    font-size: 2rem;
-    font-weight: bold;
-    
-    color: #E88156;
-    opacity: 1;
-    line-height: 1.3;
-    margin-bottom: 5%;
-}
-
-.card p {
-    font-size: 1.3rem;
-    color:white;
-    opacity: 1;
-    line-height: 1.3;
-    margin-bottom: 5%;
-    
-}
-
 
 
 
 /* my work */
 
 #myProject {
-    padding: 7%;
+    padding: 5%;
     
     
 }
@@ -316,25 +262,26 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-bottom: 5%;
     border-bottom: 4px solid #E88156;
+   
 
    
 
 }
 
-#projectInfo {
+.projectInfo {
 
     text-align: center;
-    width: 25%;
+    width: 30%;
     padding: 3%;
     opacity: 1;
     line-height: 1.3;
 
 }
 
-#projectInfo h2 {
+.projectInfo h2 {
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: -2.2px;
@@ -342,14 +289,14 @@ p {
 
 }
 
-#projectInfo p {
+.projectInfo p {
     font-size: 1.5rem;
     letter-spacing: -2.2px;
     margin-bottom: 9%;
    
 }
 
-#projectInfo img {
+.projectInfo img {
     width: 150px;;
 
 }
@@ -381,10 +328,10 @@ p {
 
 }
 
-#adjusttheborder {
+/*#adjusttheborder {
     border-bottom: 0px;
 
-}
+} */
 
 
 
@@ -432,7 +379,7 @@ p {
 .button3:hover {
     background-color:  #849CEF;
     color: black;
-    padding: 12px 35px;
+    padding: 12px 50px;
 }
 
 
@@ -626,14 +573,16 @@ p {
       margin-bottom: 17px;
     }
 
+    
+
+
+
+
+
+
     .button3 {
         background-color: #E88156; 
         color: white; 
-       align-content: center;
-       
-
-
-
         
       }
   
@@ -760,7 +709,7 @@ p {
 
     }
 
-    #projectInfo {
+    .projectInfo {
 
      text-align: center;
      width: 50%;
@@ -770,7 +719,7 @@ p {
 
     }
 
-    #projectInfo h2 {
+    .projectInfo h2 {
      
      
 
@@ -784,7 +733,7 @@ p {
 
     }
 
-    #projectInfo p {
+    .projectInfo p {
      
      
      
@@ -798,7 +747,7 @@ p {
    
     }
 
-    #projectInfo img {
+    .projectInfo img {
      width: 180px;
 
     }
@@ -819,7 +768,7 @@ p {
         width: 100%;
         height: auto;
    
-       }
+    }
 
 
     
@@ -834,16 +783,12 @@ p {
 
 
 
-    #blogImgs {
-     
-     width: 10%;
+   
 
-    } 
-
-    #adjusttheborder {
+    /*#adjusttheborder {
      border-bottom: 0px;
 
-    }
+    } */
 
     .adjust {
         display: flex;
