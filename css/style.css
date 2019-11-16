@@ -89,7 +89,7 @@ body {
 #myInfo {
     grid-area: myInfo;
     background-color:#E78A64;
-    padding: 10%;
+    padding: 15%;
     position: relative;
 }
 .dot1 {
@@ -209,7 +209,7 @@ p {
 
 #myPortrait {
     grid-area: myPortrait;
-    background-image: url("../images/CO.PNG");
+    background-image: url("../images/IMG_6632.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -590,7 +590,7 @@ p {
     #aboutMe {
       grid-area: aboutMe;
       background-color: #66739F;
-      padding: 0%;
+      padding: 7%;
       min-width: auto;
       height: auto;
       
@@ -625,6 +625,17 @@ p {
     li {
       margin-bottom: 17px;
     }
+
+    .button3 {
+        background-color: #E88156; 
+        color: white; 
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+
+
+
+        
+      }
   
   
   
