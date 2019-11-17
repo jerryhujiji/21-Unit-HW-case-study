@@ -30,6 +30,7 @@ body {
     background-color: transparent !important;
     background-size: cover;
     z-index: 10;
+    
 }
 
 
@@ -332,7 +333,7 @@ p {
 
 .projectInfo p {
     font-size: 1.5rem;
-    letter-spacing: -2.2px;
+    letter-spacing: -1px;
     margin-bottom: 9%;
    
 }
@@ -398,7 +399,7 @@ p {
 
 
 .button2 {
-    background-color: #66739F; 
+    background-color: #7686BA; 
     color: white; 
     
   }
@@ -830,10 +831,29 @@ p {
 
 
 
+}
 
-        
+
+
+
+
+
+@media only screen and (min-width: 1410px) {
+
+
+  #jobTitle {
+    font-size: 30px;}
+
+
+   
+
+
+    #aboutMeContent {
+        font-size: 1.7rem;
+    
+    }
+    
 
 
 
 }
-
