@@ -448,6 +448,16 @@ p {
 }
 
 
+footer {
+    background-color: #E78A64;
+    font-size: 1.3rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
 @media only screen and (max-width: 1015px) {
@@ -818,6 +828,16 @@ p {
         margin: 0 10px;
         width: 50px;
         height: 50px
+    }
+
+    footer {
+        background-color: #E78A64;
+        font-size: 1rem;
+        text-align: center;
+        padding: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
    
