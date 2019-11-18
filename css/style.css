@@ -503,9 +503,9 @@ p {
     #topGrid {
         margin: 0px 0px;
         display: grid;
-        height: 200vh;
+        height: 180vh;
         width: 100vw;
-        grid-template-rows: 20% 10% 30% 40%;
+        grid-template-rows: 18% 12% 30% 40%;
         grid-template-columns: 100%;
         grid-template-areas:
         "mountainPic"
