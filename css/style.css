@@ -505,7 +505,7 @@ p {
         display: grid;
         height: 200vh;
         width: 100vw;
-        grid-template-rows: 20% 15% 30% 35%;
+        grid-template-rows: 20% 10% 30% 40%;
         grid-template-columns: 100%;
         grid-template-areas:
         "mountainPic"
