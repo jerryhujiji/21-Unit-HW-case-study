@@ -341,6 +341,28 @@ p.card{
     }
 
 
+
+    .listContainer {
+        display: flex;
+      align-items: center;
+      justify-content: center;
+    
+      width: 80%;
+        
+    
+        margin:auto;
+        
+        padding:1rem  1rem;
+    
+        text-align: left;
+    
+    }
+
+
+
+    
+
+
     /* follow me  */
 
     #socialMedia {
