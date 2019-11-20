@@ -1,0 +1,519 @@
+
+/*navBar*/
+
+
+.navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+}
+
+
+.customNav {
+    
+    width: 100%;
+    background: url("../images/Rectangle\ orange.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+}
+
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.navColorChange {
+    background-color: aliceblue;
+}
+
+
+
+/*navBar End*/
+
+
+
+
+
+h3 {
+color: red;
+font-weight: 200;
+}
+
+.d-inline-block {
+margin-left: 4rem;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+    padding-bottom: 6rem;
+    font-size: 1.5rem;
+    color: white; 
+    
+
+}
+
+
+.listContainer {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 70%;
+    
+
+    margin:auto;
+    
+    padding:1rem  5rem;
+
+    text-align: left;
+
+}
+
+
+
+
+
+.personaSectionalText {
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #586691;
+
+}
+
+.list{
+    display:inline-block;
+    margin: 1.5rem;
+   
+  
+}
+
+
+.title {
+    padding-top:5rem;
+    
+    width: 100%;
+    background-image: linear-gradient(#E78A64,#CECA60);
+    /* background-color: #FF7272;
+    background: url("../images/light\ organge.png");*/
+    
+    background-size: cover;
+    z-index: 10;
+    
+}
+
+h1 {
+    width: 90%;
+    text-align: center;
+    
+    font-size:3rem;
+    margin:auto;
+    
+    padding: 2rem 5rem;
+   
+}
+
+
+.heroTextColor {
+    color: #3F465C;
+}
+
+h2 {
+     text-align: center;
+     padding:2rem;
+     font-family: font-family 'Oswald', sans-serif;
+     font-weight: 600;
+     font-size:3rem;
+     
+}
+
+
+
+h3 {width: 60%;
+    text-align: center;
+    color: darkolivegreen;
+    font-weight: 250;
+    font-size: 1.5rem;
+
+    margin:auto;
+    
+    padding: 0rem 5rem;
+
+
+}
+
+
+.text-align {
+    text-align: left
+}
+
+p {
+    width: 80%;
+    
+
+    margin:auto;
+    
+    padding:1rem  5rem;
+
+    text-align: left;
+
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+
+
+
+
+.button3 {
+    background-color: black; 
+    color: white; 
+    margin-top: 2rem;
+    
+  }
+  
+.button3:hover {
+    background-color: #CECA60;
+    color: white;
+    padding: 12px 35px;
+}
+
+
+
+
+
+section.main{
+        
+    margin-bottom: 8rem;
+}
+
+.card p{
+        margin:auto;
+}
+
+
+.centerTheText {
+
+    display: flex;
+    align-items: center;
+}
+
+    
+h5{
+        margin: auto !important;
+}
+
+.allimage{
+        display:inline-block;
+        text-align: center;
+}
+
+
+
+section img{
+        margin:auto;
+        text-align: center;
+        padding:2rem;
+}
+
+.card-img{
+        margin-top:1.5rem;
+}
+
+    
+/* follow me  */
+
+#socialMedia {
+    height: 150px;
+    background-color: #E88156;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#socialMedia img {
+    margin: 0 25px;
+    width: 92px;
+    height: 92px
+}
+
+
+footer {
+    background-color: #E78A64;
+    font-size: 1.3rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+
+
+
+.card{
+       display:inline-block;
+       padding:3rem;
+       margin:0 1rem 0 1rem;
+       border:0
+}
+
+.card p{
+    margin:auto;
+    
+    padding:1.5rem  2rem;
+
+}
+
+
+
+.card-body{
+        
+        margin-left:3rem;
+}
+
+
+.card-body p{
+        padding:1rem 0 0 2rem;
+}
+
+p.card{
+       border: 0;
+}
+
+
+
+
+
+
+
+
+@media only screen and  (max-width : 870px){
+
+    h1 {
+        width: 80%;
+        text-align: center;
+        
+    
+        margin:auto;
+        
+        padding: 2rem 5rem;
+    
+        
+    }
+    h3{width: 80%;
+        text-align: center;
+        color: darkolivegreen;
+        font-weight: 250;
+    
+        margin:auto;
+        
+        padding: 1rem 5rem;
+    
+    
+    }
+    
+    p{
+        width: 80%;
+        
+    
+        margin:auto;
+        
+        padding:2rem  5rem;
+    }
+
+
+
+    .listContainer {
+        display: flex;
+      align-items: center;
+      justify-content: center;
+    
+      width: 80%;
+        
+    
+        margin:auto;
+        
+        padding:1rem  1rem;
+    
+        text-align: left;
+    
+    }
+
+
+
+    
+
+
+    /* follow me  */
+
+    #socialMedia {
+
+        height: 100px;
+        margin: 0px;
+        background-color: #E88156;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   
+    }
+   
+       
+   
+   
+    #socialMedia img {
+           margin: 0 10px;
+           width: 50px;
+           height: 50px
+    }
+   
+    footer {
+           background-color: #E78A64;
+           font-size: 1rem;
+           text-align: center;
+           padding: 0.5rem;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+    }
+
+    
+
+}
+
+
+    
+ 
+ 
+@media only screen and  (max-width : 570px){
+
+
+
+        .card-body{
+            margin:0;
+        }
+        .card-img{
+            max-width: 250px;
+            padding: 0rem;
+        }
+        
+        h1 {
+            width: 100%;
+            text-align: center;
+            font-size: 2rem;
+        
+            margin:auto;
+            
+            padding: 2rem 2rem;
+        
+            
+        }
+        h3{width: 100%;
+            text-align: center;
+            color: darkolivegreen;
+            font-weight: 250;
+        
+            margin:auto;
+            
+            padding: 1rem 2rem;
+        
+        
+        }
+        
+        p{
+            width: 100%;
+            
+        
+            margin:auto;
+            
+            padding:2rem  3rem 2rem 2rem;
+        
+            
+        }
+        section.main{
+        
+            margin-bottom: 4rem;
+        }
+
+        section img{
+            min-width: 100%;
+        }
+
+
+        /* follow me  */
+
+       #socialMedia {
+
+        height: 100px;
+        margin: 0px;
+        background-color: #E88156;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   
+       }
+   
+       
+   
+   
+       #socialMedia img {
+           margin: 0 10px;
+           width: 50px;
+           height: 50px
+       }
+   
+       footer {
+           background-color: #E78A64;
+           font-size: 1rem;
+           text-align: center;
+           padding: 0.5rem;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+
+
+
+
+
+
+
+}  
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
