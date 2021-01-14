@@ -80,7 +80,7 @@ body {
 #mountainPic {
 
     grid-area: mountainPic;
-    background-image: url("../images/mountain\ top\ 800.jpg.jpg");
+    background-image: url("../images/mountain\ top\ 800.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -531,7 +531,7 @@ footer {
     #mountainPic {
   
       grid-area: mountainPic;
-      background-image: url("../images/mountain\ top\ 800.jpg.jpg");
+      background-image: url("../images/mountain\ top\ 800.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
