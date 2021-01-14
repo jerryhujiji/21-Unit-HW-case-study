@@ -415,13 +415,17 @@ p {
     background-color: #E88156; 
     color: white; 
     margin-top: 2rem;
+    font-size: 20px;
+    padding: 15px 70px;
     
   }
   
 .button3:hover {
     background-color:  #849CEF;
     color: black;
-    padding: 12px 50px;
+    padding: 20px 70px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 
