@@ -286,7 +286,7 @@ p {
 
 #myProject {
     padding: 5%;
-    
+    background-color: #F5F5F6;
     
 }
 
@@ -326,14 +326,14 @@ p {
 .projectInfo h2 {
     font-size: 2rem;
     font-weight: bold;
-    letter-spacing: -2.2px;
+    
     margin-bottom: 9%;
 
 }
 
 .projectInfo p {
-    font-size: 1.5rem;
-    letter-spacing: -1px;
+    font-size: 1.2rem;
+    
     margin-bottom: 9%;
    
 }
@@ -670,6 +670,7 @@ footer {
 
     #myProject {
      padding: 7%;
+     background-color: #F5F5F6;
     
     
     }
